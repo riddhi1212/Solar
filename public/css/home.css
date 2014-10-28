@@ -1,0 +1,10 @@
+
+
+.found-people-display, .find-people-display {
+	margin-top: 10px;
+}
+
+#found-people-form, #find-people-form {
+	padding: 5px;
+	border: 1px solid rgb(185,185,185);
+}

@@ -1,0 +1,163 @@
+.stripe {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(235,235,235);
+}
+
+.floating-help {
+  background-color: red;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: absolute;
+  margin-top: 120px;
+  right: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 10;
+}
+
+.floating-help a:link {
+  color: white;
+  text-decoration: none;
+}
+.floating-help a:visited {
+  color: white;
+  text-decoration: none;
+}
+.floating-help a:hover {
+  color: white;
+  text-decoration: none;
+}
+.floating-help a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 60px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+#wrap {
+  padding-bottom: 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  /*background-color: #f5f5f5;    (ec light beige)  (#645251 brownish) */
+  background-color: #18091e;
+  color: grey;
+  font-size: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.glyphicon-lg {
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.fa {
+  display: inline-block;
+}
+
+
+/* nav bar */
+
+.active-link {
+    background-color: rgb(80,40,40);
+ }
+
+ .dropdown-menu > li > .active-link {
+    color: white;
+ }
+
+ .dropdown-menu > li > a:hover {
+    color: #ff6582;
+ }
+
+
+.navbar-default {
+  background-color: #18091e;
+  border-color: #645251;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ff6582;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ff6582;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ff6582;
+  background-color: #645251;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ff6582;
+  background-color: #645251;
+}
+.navbar-default .navbar-toggle {
+  border-color: #645251;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #645251;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #ff6582;
+}
+
+/* Makes dropdown display on hover as well as click*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ff6582;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ff6582;
+    background-color: #645251;
+  }
+}

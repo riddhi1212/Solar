@@ -1,0 +1,15 @@
+
+
+.pagination {
+	display: table;
+	margin: 0 auto;
+}
+
+h4 {
+	display: inline;
+}
+
+#army-updates-search-form {
+	padding: 5px;
+	border: 1px solid rgb(185,185,185);
+}

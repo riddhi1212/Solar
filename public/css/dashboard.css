@@ -1,0 +1,45 @@
+
+
+.matches-list {
+	margin-bottom: 0px;
+}
+
+.find-people-table {
+	margin-bottom: 0px;
+}
+
+.fip-options {
+	width: 50px;
+}
+
+.fip-review {
+	width: 60px;
+}
+
+.fip-first-name {
+	width: 30%;
+}
+
+.fip-last-name {
+	width: 30%;
+}
+
+.fip-age {
+	width: 30%;
+}
+
+/*
+
+.find-people-list > .list-group-item {
+	background-color: rgb(41,41,41);
+	color: #ecf0f1;
+	border-bottom: 5px solid black;
+ 	border-top: 2px solid rgb(70,70,70);
+}
+
+.matches-list > .list-group-item {
+	background-color: white;
+	color: black;
+}
+
+*/
