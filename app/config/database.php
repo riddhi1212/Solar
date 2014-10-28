@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => '128.199.164.158',
-			'database'  => 'assam',
+			'database'  => 'solar',
 			'username'  => 'forge',
 			'password'  => 'zC7DYd7Y2Y87q6QaY8Rx',
 			'charset'   => 'utf8',

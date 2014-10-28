@@ -23,7 +23,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'assam',
+			'database'  => 'solar',
 			'username'  => 'homestead',
 			'password'  => 'secret',
 			'charset'   => 'utf8',
